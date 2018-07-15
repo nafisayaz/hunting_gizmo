@@ -1,0 +1,71 @@
+
+<words_frequency>
+
+	<hi>100</hi>
+	<hello>100</hello>
+
+	<bye>100</bye>
+
+	<good>100</good>
+
+	<Gizmo>100</Gizmo>
+	<gizmo>100</gizmo>
+
+	<highly>120</highly> 
+	<professional>120</professional> 
+	<artificial>100</artificial>
+	<intelligence>100</intelligence>
+	<assistant>100</assistant>
+	<from>100</from>
+	<Jobsmarkt>100</Jobsmarkt>
+
+	<thank>140</thank>
+
+
+	<i>100</i>
+	<you>140</you>
+	<we>100</we>
+	<they>100</they>
+	<it>100</it>
+	<yours>100</yours>
+
+	<!--    Helping Verbs                           -->
+	<is>100</is>
+	<am>100</am>
+	<are>100</are>
+	<was>100</was>
+	<can>100</can>
+	<were>100</were>
+	<could>100</could>
+
+	<ok>100</ok>
+	<not>100</not>
+	<going>100</going>
+	<to>100</to>
+	<open>100</open>
+	<understand>100</understand>
+	<and>120</and>
+
+
+	<!--    Main Verbs                           -->
+	<fine>100</fine>
+	<good>100</good>
+
+
+	<not>100</not>
+	<!-- Articles -->
+	<a>120</a>
+	<an>100</an>
+	<the>100</the>
+
+	<company>100</company>
+
+	<please>90</please>
+	<sorry>120</sorry>
+	<say>100</say>
+	<something>100</something>
+	
+	<welcome>100</welcome>
+
+</words_frequency>
+

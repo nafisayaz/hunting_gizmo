@@ -1,0 +1,28 @@
+
+
+all: clear create  generate compile 
+
+
+clear:
+	rm -rf headers
+	rm -rf c_files
+
+create:
+	mkdir headers
+	mkdir c_files
+
+generate:
+	@echo Generating parser 
+	bison parser.y --defines=parser.h
+	mv parser.h headers/
+#	mv parser.tab.c c_files/parser.c 
+	echo Generating lexer
+	flex lexer.l
+#	mv lex.yy.c c_files/lexer.c
+
+
+compile:
+	gcc lex.yy.c parser.tab.c
+#	gcc ./c_files/lexer.c ./c_files/parser.c
+
+
